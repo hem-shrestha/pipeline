@@ -1,41 +1,41 @@
 help:
-	echo ""
-	echo "	The following commands are available:"
-	echo ""
-	echo "	make lint			: "
-	echo "	make syntax-check	: "
-	echo "	make quality-check	: "
-	echo "	make test			: "
-	echo "	make build			: "
-	echo "	make push			: "
-	echo ""
+	@echo ""
+	@echo "	The following commands are available:"
+	@echo ""
+	@echo "	make lint		: Lint the code"
+	@echo "	make syntax-check	: Check for syntax"
+	@echo "	make quality-check	: Quality check"
+	@echo "	make test		: Run test"
+	@echo "	make build		: Build image"
+	@echo "	make push		: Push image"
+	@echo ""
 
 lint:
-	echo "Linting process has been started"
+	@echo "Linting process has been started"
 	sleep 5
-	echo "Completed"
+	@echo "Completed"
 
 syntax-check:
-	echo "Syntax check process has been started"
+	@echo "Syntax check process has been started"
 	sleep 5
-	echo "Completed"
+	@echo "Completed"
 
 quality-check:
-	echo "Quality check process has been started"
+	@echo "Quality check process has been started"
 	sleep 5
-	echo "Completed"
+	@echo "Completed"
 
 test:
-	echo "Testing process has been started"
+	@echo "Testing process has been started"
 	sleep 5
-	echo "Completed"
+	@echo "Completed"
 
 build:
-	echo "Building process has been started"
+	@echo "Building process has been started"
 	sleep 5
-	echo "Completed"
+	@echo "Completed"
 
 push:
-	echo "Pushing process has been started"
+	@echo "Pushing process has been started"
 	sleep 5
-	echo "Completed"
+	@echo "Completed"
